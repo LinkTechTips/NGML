@@ -1,2 +1,1 @@
-# NGML
-New Generation Minecraft Launcher
+# New Generation Minecraft Launcher
