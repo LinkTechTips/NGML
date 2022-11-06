@@ -110,22 +110,23 @@
             <dependency>
                 <groupId>org.to2mbn</groupId>
                 <artifactId>jmccc</artifactId>
-                <version>2.5-beta-1</version>
             </dependency>
             <dependency>
                 <groupId>org.to2mbn</groupId>
                 <artifactId>jmccc-yggdrasil-authenticator</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.to2mbn</groupId>
+                <artifactId>jmccc-mojang-api</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.to2mbn</groupId>
+                <artifactId>jmccc-parent</artifactId>
                 <version>2.5-beta-1</version>
             </dependency>
             <dependency>
                 <groupId>org.to2mbn</groupId>
                 <artifactId>jmccc-mcdownloader</artifactId>
-                <version>2.5-beta-1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.to2mbn</groupId>
-                <artifactId>jmccc-mojang-api</artifactId>
-                <version>2.5-beta-1</version>
             </dependency>
             <!-- Maven -->
             <dependency>
@@ -162,29 +163,6 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.to2mbn</groupId>
-            <artifactId>jmccc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.to2mbn</groupId>
-            <artifactId>jmccc-yggdrasil-authenticator</artifactId>
-        </dependency>
 
-        <dependency>
-            <groupId>org.to2mbn</groupId>
-            <artifactId>jmccc-mojang-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.to2mbn</groupId>
-            <artifactId>jmccc-parent</artifactId>
-            <version>2.5-beta-1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.to2mbn</groupId>
-            <artifactId>jmccc-mcdownloader</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
